@@ -1,48 +1,125 @@
 <!doctype html>
-	<html lang="en">
-	  <head>
-	    <meta charset="utf-8">
-	    <title>Portfolio</title>
-	  </head>
-	  <body>
-	      <style type="text/css">
-  body {
-    background-color: #bf80ff;
-}
+    <html lang="en">
+<head>
+  <title>Portfolio Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 30px;
+    }
+    
+    nav navbar-nav {
+    background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 86%);
+    padding: 20px;
+    }
+  </style>
+</head>
+<body>
 
-h1 {
-    color: #1a1a1a;
-    text-align: center;
-}
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About Me</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-p {
-    font-family: Times, serif;
-    font-size: 20px;
-}
-</style>
-    <a href="index.html">Home</a>
-    <a href="portfolio.html">Portfolio</a>
-    <h1>Portfolio Page</h1>
-    <table style="width:100%">
-  <tr>
-    <th>Project Name</th>
-    <th>Sample/Link</th> 
-  </tr>
-  <tr>
-    <td>Scratch Starter Project</td>
-    <td><a href="https://scratch.mit.edu/projects/122379666/" target="_blank"><img src="images/Capture2.PNG"><style="width:30px;height:30px;border:0;"></style></td>
-  </tr>
-  <tr>
-    <td>Scratch From Scratch Project</td>
-    <td><a href="https://scratch.mit.edu/projects/123421319/#player" target="_blank"><img src="images/Capture1.PNG"><style="width:30px;height:30px;border:0;"></style></a></td>
-  </tr>
-  <tr>
-      <td>The Lonely Lumberjack (FlowChart)</td>
-      <td><a href="https://www.gliffy.com/go/share/s7gp1w66fqw88fdcx000" target="_blank"><img src="images/Lonely lumberjack.PNG"><style="width:30px;height:30px;border:0;"></style></a></td>
-  </tr>
-  <tr>
-      <td>The Lonely Lumberjack (Game)</td>
-      <td><a href="https://repl.it/EDFH/latest" target="_blank"><img src="images/Lumberjack finished.PNG"><style="width:30px;height:30px;border:0;"></style></a></td>
-</table>
-    </body>
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>My Portfolio</h1>      
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+  <h3>Some of my Work</h3><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Scratch Starter</p>
+      <a href="https://scratch.mit.edu/projects/122379666/" target="_blank"><img src="images/Capture2.PNG" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+    <div class="col-sm-3"> 
+      <p>Scratch From Scratch</p>
+      <a href="https://scratch.mit.edu/projects/123421319/#player" target="_blank"><img src="images/Capture1.PNG" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+    <div class="col-sm-3"> 
+      <p>Lone Lumberjack (flowchart)</p>
+      <a href="https://www.gliffy.com/go/share/s7gp1w66fqw88fdcx000" target="_blank"><img src="images/Lonely lumberjack.PNG" class="img-responsive" style="width:100%" alt="Image"></a> 
+    </div>
+    <div class="col-sm-3">
+      <p>Lone Lumberjack (game)</p>
+      <a href="https://repl.it/EDFH/latest" target="_blank"><img src="images/Lumberjack finished.PNG" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+  </div>
+</div><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Rainbow Six Seige.aia (Operator Guide App)</p>
+      <a href="lol.aia" target="_blank"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+    <div class="col-sm-3"> 
+      <p>Rainbow Six Seige.apk (Operator Guide App)</p>
+      <a href="lol.apk" target="_blank"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p>Kai Kissmond's Website</p>
+</footer>
+
+</body>
 </html>
